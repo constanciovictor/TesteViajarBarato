@@ -1,0 +1,6 @@
+Bom, esta pergunta acaba sendo um pouco relativa, pois escolher uma tecnologia acaba pesando um pouco do gosto de se utilizar, e cada dia surgem novas tecnologias e novos frameworks.
+
+Eu usaria o .NET Core, tendo em vista que o sistema daria suporte para varias plataformas, possuindo um bom desempenho e funciona bem com ferramentas de testes de automação. Utilizaria o Entity Framework Core como ORM da aplicacao, por ser facil de implementar e acessar rapidamente os dados.
+
+
+Para a parte de banco de dados, por mais que os bancos NOSQL estejam em alta e na moda, eu ainda utilizaria o SQL Server, uma vez que a equipe possui um amplo conhecimento. Sabemos o quanto o SQL Server é confiavel, bom e possui uma grande consistência de dados. Um banco seguro e muito facil/simples de se utilizar.
