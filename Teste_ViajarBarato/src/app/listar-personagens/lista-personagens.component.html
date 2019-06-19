@@ -1,0 +1,20 @@
+<div class="col-md-6">
+  <h2> Personagem </h2>
+  <input type="text" class="form-control"  [(ngModel)]="model" [ngbTypeahead]="search"/>
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Planeta</th>      
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let starw of starWars">
+      <td>{{ starw.Personagem.name }}</td>               
+      <td>{{ starw.Planeta.name }}</td>   
+    </tr>
+    </tbody>
+  </table>
+
+  
+</div>
